@@ -1,0 +1,15 @@
+.rectangle{
+  border-radius: 20%;
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+}
+.toggle-rectangle{
+  display: none;
+}
+.important{
+  background-color: firebrick;
+}
+.good{
+  background-color: limegreen;
+}

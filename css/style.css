@@ -1,0 +1,293 @@
+/**********************************Global**************************************/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular.ttf') format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Arizonia';
+  src: url('Arizonia-Regular.ttf') format("truetype");
+  font-weight: bold;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+
+  /*background-attachment: fixed;*/
+}
+
+/********************************main******************************************/
+main{
+  max-width: 1583px;
+  margin: 0 auto;
+}
+header{
+  text-align: center;
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#navigation{
+  position: fixed;
+  width: 1583px;
+  background-color: rgba(126,149,14,1);
+}
+a{
+  text-decoration: none;
+  margin: 15px;
+  color: black;
+  display: grid;
+}
+.titre{
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('../image/railroad.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.fa-home:hover, .fa-user-circle-o:hover, .fa-folder-open:hover, .fa-envelope:hover, .fa-file-text:hover{
+  color: white;
+}
+.whitestyle{
+  color: white;
+}
+.titre>p{
+  font-size: 4.5rem;
+  margin-bottom: -0.5%;
+  text-align: center;
+}
+h1{
+  color: white;
+  font-size: 5rem;
+  /*font-family: 'Arizonia', cursive;*/
+
+}
+h1,h2{
+  text-align: center;
+}
+h2{
+  order: 1;
+  height: 30px;
+}
+
+/***********************************about**************************************/
+.a-propos{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+
+}
+.a-propos img
+{
+  width: 200px;
+  height: 200px;
+
+}
+.text{
+  width: 650px;
+  margin-top: 30px;
+
+}
+.a-propos p:hover{
+  color: white;
+  transform: scale(1.5);
+  margin-top: 2.5%;
+
+}
+.a-propos p{
+  font-size: 2rem;
+  text-align: center;
+}
+.competences{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: -5%;
+}
+.competences img{
+ width: 200px;
+ height: 200px;
+}
+/*********************************work*****************************************/
+
+.maquette{
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  flex-flow: row wrap;
+  padding: 20px;
+  width: 1000px;
+  margin-left: 15%;
+  padding-top: 8.5%;
+}
+.maquette p{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.rectangle:hover{
+  box-shadow: 0 0 20px 0 black;
+}
+
+#greenoffice{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+#creasoul{
+ height: 200px;
+ width: 200px;
+ border-radius: 5px;
+}
+#yoga{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+#wolfgang{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+#carnet{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 8%;
+}
+#souris{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+
+}
+#blog{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+
+}
+#bons{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+
+}
+
+/*********************************contact**************************************/
+#contact{
+  margin-top: 15%;
+}
+#formulaire{
+  width: 750px;
+}
+.fieldset{
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #E9A136;
+  margin-top: 8.5%;
+  width: 750px;
+}
+input{
+  border-radius: 5px;
+  height: 25px;
+  border-color: black;
+  width: 250px;
+}
+textarea{
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+button{
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+label{
+  font-size: 2rem;
+  color: #E9A136;
+}
+
+.site{
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  margin-right: 25%;
+  margin-top: 10%;
+}
+
+i{
+  margin: 10px;
+}
+/***********************************cv*****************************************/
+.cv{
+  width: 708.5px;
+  height: 945px;
+  margin-left: 25.7%;
+  padding: 10px;
+  margin-top: 5%;
+}
+
+/*
+@media screen and (max-width:1024px) {
+
+nav{
+  margin-left: -22.5%;
+}
+.titre{
+  width: 1000px;
+  margin-left: 2.5%;
+}
+.a-propos{
+  margin-left: 12%;
+}
+.competences{
+  margin-left: 12.5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.competences img{
+  width: 100px;
+  height: 100px;
+
+}
+.maquette{
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+.fieldset{
+  margin-left: 5%;
+  border: none;
+}
+.cv{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+}
+@media screen and (max-width:320px) {
+body{
+  background-repeat: round;
+}
+.a-propos{
+  display: block;
+}
+}
+*/
