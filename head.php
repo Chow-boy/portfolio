@@ -13,5 +13,5 @@
   <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
     <!-- Load LocalScroll -->
   <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
-
+  <script type="text/javascript" src="js/lancement.js"></script>
 </head>

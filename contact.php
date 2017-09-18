@@ -1,6 +1,6 @@
 <?php include 'head.php'; ?>
 <?php //include 'header.php'; ?>
-
+                                            <h2>CONTACT</h2>
 <section id="contact" class="contact">
   <!--<h2>Contact</h2>-->
   <div class="site">

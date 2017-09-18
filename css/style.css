@@ -79,8 +79,15 @@ h1,h2{
   text-align: center;
 }
 h2{
-  order: 1;
-  height: 30px;
+  /*order: 1;*/
+  height: 200px;
+  background-image: url('../image/greenfloral.png');
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /***********************************about**************************************/
@@ -88,8 +95,8 @@ h2{
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 500px;
-
+  height: 700px;
+  /*padding-top: 10%;*/
 }
 .a-propos img
 {
@@ -116,7 +123,7 @@ h2{
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  margin-top: 5%;
+  margin-top: 2.5%;
   width: 1250px;
   border-top: 2px solid black;
   padding: 25px;

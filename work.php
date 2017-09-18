@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
 <?php //include 'header.php'; ?>
 
-
+                                                              <h2>WORK</h2>
 <section id="work" class="maquette">
   <!--<h2>Work</h2>-->
   <p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.

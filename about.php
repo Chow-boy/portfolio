@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
 
 <?php //include 'header.php'; ?>
-
+                                                            <!--<img id="fleur" src="image/greenfloral.png" alt="img">-->  <h2>ABOUT ME</h2>
 <section id="talk" class="a-propos">
 
   <article class="text">
