@@ -11,8 +11,8 @@
 
           <!--<p>Bienvenue sur mon site web,</p>
           -->
-          <h1> INTÉGRATEUR DÉVELOPPEUR WEB JUNIOR</h1>
-          <p>Je m'appelle Jeanin MOUSSA</p>
+          <h1> INTÉGRATEUR ET DÉVELOPPEUR D'APPLICATION WEB JUNIOR</h1>
+          <p>Bienvenue sur mon site, je m'appelle Jeanin MOUSSA</p>
           <!--<button id="hidden" type="button" name="button"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></button>-->
 
         </div>

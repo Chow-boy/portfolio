@@ -18,7 +18,7 @@ html{
 body{
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-
+  background-color: #f2f4e8;
   /*background-attachment: fixed;*/
 }
 
@@ -26,6 +26,7 @@ body{
 main{
   max-width: 1583px;
   margin: 0 auto;
+  background-color: #f2f4e8;
 }
 header{
   text-align: center;
@@ -115,11 +116,16 @@ h2{
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  margin-top: -5%;
+  margin-top: 5%;
+  width: 1250px;
+  border-top: 2px solid black;
+  padding: 25px;
 }
 .competences img{
  width: 200px;
  height: 200px;
+ border-radius: 200px;
+ border: 0.5px solid white;
 }
 /*********************************work*****************************************/
 
@@ -130,7 +136,7 @@ h2{
   flex-flow: row wrap;
   padding: 20px;
   width: 1000px;
-  margin-left: 15%;
+  margin-left: 17%;
   padding-top: 8.5%;
 }
 .maquette p{
@@ -190,6 +196,7 @@ h2{
 /*********************************contact**************************************/
 #contact{
   margin-top: 15%;
+  margin-left: 4.1%;
 }
 #formulaire{
   width: 750px;
@@ -197,7 +204,7 @@ h2{
 .fieldset{
   display: flex;
   flex-direction: column;
-  border-right: 2px solid #E9A136;
+  border-right: 2px solid black;
   margin-top: 8.5%;
   width: 750px;
 }
@@ -244,7 +251,25 @@ i{
   padding: 10px;
   margin-top: 5%;
 }
-
+.close{
+  content: 'X';
+  display: inline-block;
+  position: absolute;
+  width: 2.5rem;
+  height: 2rem;
+  padding: 1px 1px 1px 2px;
+  text-decoration: none;
+  text-shadow: none;
+  text-align: center;
+  font-weight: bold;
+  background: #f2f4e8;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 6%;
+  margin-right: 7%;
+}
 /*
 @media screen and (max-width:1024px) {
 

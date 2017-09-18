@@ -3,18 +3,18 @@
 <?php //include 'header.php'; ?>
 
 <section id="talk" class="a-propos">
-  
+
   <article class="text">
-    <p>Je m'appelle Jeanin MOUSSA et je suis un développeur intégrateur web junior,
+    <p>Je m'appelle Jeanin MOUSSA et je suis un intégrateur et développeur d'application web junior,
        j'ai fais une réorientation professionnel dans le numérique afin d'apprendre et découvrir de nouvelles choses.
      En intégrant la 3W Académy pour débuter dans le codage et apprendre les différents langages. </p>
   </article>
 
+  <aside class="competences">
+    <img src="image/HTML-5.png" alt="photo">
+    <img src="image/css-3.png" alt="photo">
+    <img src="image/JS-1.png" alt="photo">
+    <img src="image/PHP-1.png" alt="photo">
+    <img src="image/Mysql-1.png" alt="photo">
+  </aside>
 </section>
-<aside class="competences">
-  <img src="image/HTML5_Logo.png" alt="photo">
-  <img src="image/css3.png" alt="photo">
-  <img src="image/js.png" alt="photo">
-  <img src="image/php-elephant-logo.png" alt="photo">
-  <img src="image/MySQL.svg.png" alt="photo">
-</aside>
