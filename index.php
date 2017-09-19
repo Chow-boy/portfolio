@@ -29,5 +29,8 @@
 
     </footer>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/localTo.js"></script>
+    <script type="text/javascript" src="js/localscroll.js"></script>
+    <script type="text/javascript" src="js/lancement.js"></script>
   </body>
 </html>
