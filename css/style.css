@@ -212,7 +212,7 @@ h2{
 
 /*********************************contact**************************************/
 #contact{
-  margin-top: 15%;
+  margin-top: 5%;
   padding-left: 4.1%;
   background-color: rgba(126,149,14,1);
 }
@@ -242,11 +242,12 @@ button{
   width: 150px;
   border-radius: 5px;
   border: 2px solid black;
+  background-color: white;
 }
 
 label{
   font-size: 2rem;
-  color: #E9A136;
+  color: black;
 }
 
 .site{
@@ -270,16 +271,16 @@ i{
   margin-top: 5%;
 }
 .close{
-  content: 'X';
   display: inline-block;
   position: absolute;
   width: 2.5rem;
-  height: 2rem;
-  padding: 1px 1px 1px 2px;
+  height: 2.5rem;
+  padding: 2px;
   text-decoration: none;
   text-shadow: none;
   text-align: center;
   font-weight: bold;
+  font-size: 2rem;
   background: #f2f4e8;
   color: #fff;
   border: 3px solid #fff;

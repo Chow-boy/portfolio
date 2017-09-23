@@ -7,5 +7,10 @@
   <link rel="stylesheet" href="css/normalize.css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css" >
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+  <script src="js/jquery.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="js/localscroll/localscroll.js"></script>
+  <script type="text/javascript" src="js/localscroll/scrollTo.js"></script>
+  <script type="text/javascript" src="js/lancement.js"></script>
 
 </head>
