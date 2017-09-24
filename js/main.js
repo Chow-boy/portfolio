@@ -1,6 +1,6 @@
 "use strict";
 
-function barreNav()
+/*function barreNav()
 {
 var positionElementInPage = $('#navigation').offset().top;
 $(window).scroll(
@@ -13,4 +13,4 @@ $(window).scroll(
       $('nav').removeclass("floatable");
     }
 });
-}
+}*/
