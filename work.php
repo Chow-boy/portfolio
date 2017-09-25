@@ -38,5 +38,11 @@
 
 
 
+</section>
+                                              <button type="button" id="bouton"><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></button>
+<section>
+  <div class="hide">
+                                              <h4>Projet</h4>
+  </div>
 
 </section>

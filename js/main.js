@@ -14,3 +14,18 @@ $(window).scroll(
     }
 });
 }*/
+
+var div;
+var button;
+
+
+function onclickbutton()
+{
+  div.classList.toggle('projet');
+}
+
+div =  document.querySelector('.hide');
+button = document.getElementById('bouton');
+
+
+button.addEventListener('click', onclickbutton);

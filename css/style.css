@@ -85,15 +85,14 @@ h1,h2{
   text-align: center;
 }
 h2{
-  /*order: 1;*/
   height: 200px;
-  background-image: url('../image/bonbou1.png');
+  background-image: url('../image/arabesque.png');
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .titre p{
   color: white;
@@ -166,6 +165,15 @@ h2{
 
 .rectangle:hover{
   box-shadow: 0 0 20px 0 black;
+}
+
+.hide{
+  display: none;
+}
+.projet{
+  height: 250px;
+  width: auto;
+  border: 1px solid black;
 }
 
 #greenoffice{
