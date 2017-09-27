@@ -1,9 +1,9 @@
 <?php include 'head.php'; ?>
 
 <?php //include 'header.php'; ?>
-                                                            <!--<img id="fleur" src="image/greenfloral.png" alt="img">-->  <h2>ABOUT ME</h2>
-<section id="talk" class="a-propos">
 
+<section id="talk" class="a-propos">
+                                                          <h2>ABOUT ME</h2>
   <article class="text">
     <p>Je m'appelle Jeanin MOUSSA et je suis un intégrateur et développeur d'application web junior,
        j'ai fais une réorientation professionnel dans le numérique afin d'apprendre et découvrir de nouvelles choses.

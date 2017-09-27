@@ -1,14 +1,14 @@
 <?php include 'head.php'; ?>
 <?php //include 'header.php'; ?>
 
-                                                              <h2>WORK</h2>
+
 <section id="work" class="maquette">
-  <!--<h2>Work</h2>-->
-  <p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
-  La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>
+                                                            <h2>WORK</h2>
+  <!--<p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
+  La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>-->
       <div class="">
 
-      </div>
+      </div id="divs">
       <div>
       <a href="Green Office/index.html"><img id="greenoffice" class="rectangle" src="image/maquette/img8.jpg" alt="maquette"></a>
       </div>
@@ -37,12 +37,5 @@
       </div>
 
 
-
-</section>
-                                              <button type="button" id="bouton"><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></button>
-<section>
-  <div class="hide">
-                                              <h4>Projet</h4>
-  </div>
 
 </section>

@@ -10,6 +10,11 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Pacifico';
+  src:url('Pacifico-Regular.tff') format("truetype");
+  font-weight: 900;
+}
 html{
   font-size: 62.5%;
 }
@@ -85,14 +90,17 @@ h1,h2{
   text-align: center;
 }
 h2{
-  height: 200px;
+  height: 150px;
   background-image: url('../image/arabesque.png');
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 800px;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
 }
 .titre p{
   color: white;
@@ -104,7 +112,9 @@ h2{
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 700px;
+  height: 500px;
+  margin-bottom: 10%;
+  padding-top: 5%;
   /*padding-top: 10%;*/
 }
 .a-propos img
@@ -115,7 +125,7 @@ h2{
 }
 .text{
   width: 650px;
-  margin-top: 30px;
+  margin-top: 10px;
 
 }
 .a-propos p:hover{
@@ -156,7 +166,7 @@ h2{
   padding: 20px;
   width: 1000px;
   margin-left: 17%;
-  padding-top: 8.5%;
+  padding-top: 5%;
 }
 .maquette p{
   font-size: 2rem;
@@ -165,15 +175,6 @@ h2{
 
 .rectangle:hover{
   box-shadow: 0 0 20px 0 black;
-}
-
-.hide{
-  display: none;
-}
-.projet{
-  height: 250px;
-  width: auto;
-  border: 1px solid black;
 }
 
 #greenoffice{
@@ -200,7 +201,7 @@ h2{
   width: 200px;
   height: 200px;
   border-radius: 5px;
-  margin-left: 8%;
+
 }
 #souris{
   width: 200px;
@@ -227,15 +228,20 @@ h2{
   padding-left: 4.1%;
   background-color: rgba(126,149,14,1);
 }
+#contact h2{
+  margin-bottom: 10%;
+  background-color: rgba(126,149,14,1);
+  margin-left: -2%;
+}
 #formulaire{
-  width: 750px;
+  width: 728px;
 }
 .fieldset{
   display: flex;
   flex-direction: column;
   border-right: 2px solid black;
   margin-top: 8.5%;
-  width: 740px;
+  width: 728px;
 }
 input{
   border-radius: 5px;

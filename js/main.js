@@ -15,17 +15,19 @@ $(window).scroll(
 });
 }*/
 
-var div;
-var button;
 
+window.onload = fuction () {
+  var position = 0;
+  var rectangle = getElementById('divs');
+  var t = setInterval(move, 10);
 
-function onclickbutton()
-{
-  div.classList.toggle('projet');
+  function move(){
+    if (position >= 150) {
+      clearInterval(t);
+    }
+    else{
+      postion += 1;
+      rectangle.style.left = position+'px';
+    }
+  }
 }
-
-div =  document.querySelector('.hide');
-button = document.getElementById('bouton');
-
-
-button.addEventListener('click', onclickbutton);
