@@ -54,11 +54,7 @@ a{
   color: black;
   display: grid;
 }
-a:hover{
-  color: white;
-  transform: scale(1.5);
-  font-weight: bold;
-}
+
 .titre{
   height: 900px;
   display: flex;
@@ -69,7 +65,7 @@ a:hover{
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.fa-home:hover, .fa-user-circle-o:hover, .fa-folder-open:hover, .fa-envelope:hover, .fa-file-text:hover{
+a:hover, .fa-home:hover, .fa-user-circle-o:hover, .fa-folder-open:hover, .fa-envelope:hover, .fa-file-text:hover{
   color: white;
   transform: scale(1.5);
 }
@@ -167,6 +163,10 @@ h2{
   width: 1000px;
   margin-left: 17%;
   padding-top: 5%;
+  position: relative;
+}
+.box{
+  position: absolute;
 }
 .maquette p{
   font-size: 2rem;
@@ -227,11 +227,14 @@ h2{
   margin-top: 5%;
   padding-left: 4.1%;
   background-color: rgba(126,149,14,1);
+  height: 600px;
+  padding-top: 5%;
 }
 #contact h2{
-  margin-bottom: 10%;
-  background-color: rgba(126,149,14,1);
+  margin-bottom: 1%;
   margin-left: -2%;
+  background-image: url('../image/arabesque1.png');
+
 }
 #formulaire{
   width: 728px;
