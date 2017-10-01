@@ -108,7 +108,7 @@ h2{
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 500px;
+  height: 900px;
   margin-bottom: 10%;
   padding-top: 5%;
   /*padding-top: 10%;*/
@@ -120,16 +120,28 @@ h2{
 
 }
 .text{
-  width: 650px;
+  width: 950px;
   margin-top: 10px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
 
 }
+.text div{
+  border: 3px solid black;
+  width: 270px;
+  box-shadow: 10px 15px 15px 0 black;
+  height: 350px;
+  padding: 1%;
+
+};
 .a-propos p:hover{
   color: white;
   transform: scale(1.5);
   margin-top: 2.5%;
 
 }
+
 .a-propos p{
   font-size: 2rem;
   text-align: center;
@@ -145,6 +157,7 @@ h2{
   padding: 25px;
   box-shadow: 10px 15px 15px 0 black;
 }
+
 .competences img{
  width: 100px;
  height: 100px;
@@ -155,27 +168,63 @@ h2{
 /*********************************work*****************************************/
 
 .maquette{
-  display: flex;
-  justify-content: space-around;
-  height: 600px;
-  flex-flow: row wrap;
-  padding: 20px;
+  height: 800px;
   width: 1000px;
   margin-left: 17%;
   padding-top: 5%;
-  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-.box{
-  position: absolute;
+.maquette div{
+  width: 200px;
 }
-.maquette p{
-  font-size: 2rem;
-  text-align: center;
+.carre{
+  /*float: left;*/
 }
-
 .rectangle:hover{
   box-shadow: 0 0 20px 0 black;
 }
+/*#box1{
+  position: absolute;
+  z-index: 1;
+  margin-top: ;
+}
+#box2{
+  position: relative;
+  z-index: 2;
+  margin-top: ;
+}
+#box3{
+  position: relative;
+  z-index: 3;
+  margin-top: ;
+}
+#box4{
+  position: relative;
+  z-index: 4;
+  margin-top: ;
+}
+#box5{
+  position: relative;
+  z-index: 5;
+  margin-top: ;
+}
+#box6{
+  position: relative;
+  z-index: 6;
+  margin-top: ;
+}
+#box7{
+  position: relative;
+  z-index: 7;
+  margin-top: ;
+}
+#box8{
+  position: absolute;
+  z-index: 8;
+  margin-top: ;
+}*/
 
 #greenoffice{
   width: 200px;

@@ -5,9 +5,17 @@
 <section id="talk" class="a-propos">
                                                           <h2>ABOUT ME</h2>
   <article class="text">
-    <p>Je m'appelle Jeanin MOUSSA et je suis un intégrateur et développeur d'application web junior,
-       j'ai fais une réorientation professionnel dans le numérique afin d'apprendre et découvrir de nouvelles choses.
-     En intégrant la 3W Académy pour débuter dans le codage et apprendre les différents langages. </p>
+    <div class="">
+      <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web junior.
+         Suite à une réorientation professionnelle dans le numérique j'ai pu apprendre et découvrir de nouvelles choses
+       en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
+    </div>
+    <div class="">
+        
+    </div>
+    <div class="">
+
+    </div>
   </article>
 
   <aside class="competences">
