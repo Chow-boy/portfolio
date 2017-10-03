@@ -1,19 +1,19 @@
 /**********************************Global**************************************/
 @font-face {
   font-family: 'Open Sans';
-  src: url('OpenSans-Regular.ttf') format("truetype");
+  src: url('fonts/OpenSans-Regular.ttf') format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: 'Bree Serif';
-  src: url('BreeSerif-Regular.ttf') format("truetype");
+  src: url('fonts/BreeSerif-Regular.ttf') format("truetype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Pacifico';
-  src:url('Pacifico-Regular.tff') format("truetype");
-  font-weight: 900;
+  font-family: 'Anton';
+  src: url('fonts/Anton-Regular.tff') format("truetype");
+  font-weight: bold;
 }
 html{
   font-size: 62.5%;
@@ -96,7 +96,7 @@ h2{
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Anton', sans-serif;
   font-size: 20px;
 }
 .titre p{
@@ -360,42 +360,26 @@ i{
   margin-top: 6%;
   margin-right: 7%;
 }
-/*
+
 @media screen and (max-width:1024px) {
 
-nav{
-  margin-left: -22.5%;
+body{
+  max-width: 1024px;
+}
+header, main{
+  max-width: 100%;
+  margin-left: 10%;
 }
 .titre{
-  width: 1000px;
-  margin-left: 2.5%;
+  width: 100%;
 }
-.a-propos{
-  margin-left: 12%;
+h1{
+  font-size: 3.5rem;
+  margin-top: -20%;
+  margin-left: -2.5%;
 }
-.competences{
-  margin-left: 12.5%;
-  display: flex;
-  justify-content: space-between;
 
-}
-.competences img{
-  width: 100px;
-  height: 100px;
 
-}
-.maquette{
-  margin-right: 2.5%;
-  margin-left: 2.5%;
-}
-.fieldset{
-  margin-left: 5%;
-  border: none;
-}
-.cv{
-  margin-left: 15%;
-  margin-top: 10%;
-}
 }
 @media screen and (max-width:320px) {
 body{
@@ -405,4 +389,4 @@ body{
   display: block;
 }
 }
-*/
+*

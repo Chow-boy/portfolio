@@ -1,4 +1,4 @@
-<?php include 'head.php'; ?>
+<?php //include 'head.php'; ?>
 <?php //include 'header.php'; ?>
 
 
@@ -6,7 +6,7 @@
                                                             <h2>WORK</h2>
   <!--<p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
   La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>-->
-    
+
       <div id="box1" class="carre">
       <a href="Green Office/index.html"><img id="greenoffice" class="rectangle" src="image/maquette/img8.jpg" alt="maquette"></a>
       </div>

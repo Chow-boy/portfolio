@@ -1,4 +1,4 @@
-<?php include 'head.php'; ?>
+<?php //include 'head.php'; ?>
 
 <?php //include 'header.php'; ?>
 
@@ -11,10 +11,16 @@
        en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
     </div>
     <div class="">
-        
+
     </div>
     <div class="">
+          <h4>Cométences en cours d'acquisition</h4>
 
+          <ul>
+            <li>Symfony</li>
+            <li>Boostrap</li>
+            <li></li>
+          </ul>
     </div>
   </article>
 
