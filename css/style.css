@@ -66,7 +66,7 @@ a{
   background-repeat: no-repeat;
   background-size: 100%;
 }
-a:hover, .fa-home:hover, .fa-user-circle-o:hover, .fa-folder-open:hover, .fa-envelope:hover, .fa-file-text:hover{
+nav a:hover, .fa-home:hover, .fa-user-circle-o:hover, .fa-folder-open:hover, .fa-envelope:hover, .fa-file-text:hover{
   color: white;
   transform: scale(1.5);
 }
@@ -183,8 +183,9 @@ h2{
   width: 200px;
 }
 
-.rectangle:hover{
+.rectangle:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover, .rectangle5:hover, .rectangle6:hover, .rectangle7:hover, .rectangle8:hover{
   box-shadow: 0 0 20px 0 black;
+  transform: scale(1.5);
 }
 #box1{
   position: absolute;
@@ -193,39 +194,42 @@ h2{
 }
 #box2{
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   margin-top: 15%;
 
 }
 #box3{
   position: absolute;
-  z-index: 3;
+  z-index: 1;
   margin-top: 15%;
 }
 #box4{
   position: absolute;
-  z-index: 4;
+  z-index: 1;
   margin-top: 15%;
 }
 #box5{
   position: absolute;
-  z-index: 5;
+  z-index: 1;
   margin-top: 15%;
 }
 #box6{
   position: absolute;
-  z-index: 6;
+  z-index: 1;
   margin-top: 15%;
 }
 #box7{
   position: absolute;
-  z-index: 7;
+  z-index: 1;
   margin-top: 15%;
 }
 #box8{
   position: absolute;
-  z-index: 8;
+  z-index: 1;
   margin-top: 15%;
+}
+.carre{
+  z-index: auto;
 }
 
 #greenoffice{

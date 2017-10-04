@@ -1,4 +1,4 @@
-<?php //include 'head.php'; ?>
+<?php include 'head.php'; ?>
 <?php //include 'header.php'; ?>
 
 <section id="contact" class="contact">
@@ -27,4 +27,4 @@
   </form>
 
   </section>
-  <?php //include 'base.php'; ?>
+  <?php include 'base.php'; ?>
