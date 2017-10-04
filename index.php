@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
-<?php include 'head.php'; ?>
+  <head>
+    <meta charset="utf-8">
+    <title>PORTFOLIO_CHOW-BOY</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bree+Serif|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/localscroll/localscroll.js"></script>
+    <script type="text/javascript" src="js/localscroll/scrollTo.js"></script>
+    <script type="text/javascript" src="js/lancement/lancement.js"></script>
+  </head>
 
   <body>
-    <?php include 'header.php'; ?>
-
+    <header>
+      <nav id ="navigation">
+        <a href="#index"><i class="fa fa-home fa-2x" aria-hidden="true"></i>Home</a>
+        <a href="#talk"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>About me</a>
+        <a href="#work"><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i>Work</a>
+        <a href="#contact"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>Contact</a>
+        <a href="cv.php"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i>CV</a>
+      </nav>
+    </header>
     <main>
 
         <div id="index" class="titre">
@@ -12,15 +33,108 @@
 
           <h1> INTÉGRATEUR ET DÉVELOPPEUR D'APPLICATION WEB JUNIOR</h1>
           <p>Bienvenue chez Jeanin MOUSSA</p>
-          
+
 
         </div>
 
-        <?php include 'about.php'; ?>
 
-      <?php include 'work.php'; ?>
+        <section id="talk" class="a-propos">
+                                                                  <h2>ABOUT ME</h2>
+          <article class="text">
+            <div class="">
+              <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web junior.
+                 Suite à une réorientation professionnelle dans le numérique j'ai pu apprendre et découvrir de nouvelles choses
+               en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
+            </div>
+            <div class="">
 
-      <?php include 'contact.php'; ?>
+            </div>
+            <div class="">
+                  <h4>Cométences en cours d'acquisition</h4>
+
+                  <ul>
+                    <li>Symfony</li>
+                    <li>Boostrap</li>
+                    <li></li>
+                  </ul>
+            </div>
+          </article>
+
+          <aside class="competences">
+            <img src="image/HTML-5.png" alt="photo">
+            <img src="image/css-3.png" alt="photo">
+            <img src="image/JS-1.png" alt="photo">
+            <img src="image/PHP-1.png" alt="photo">
+            <img src="image/Mysql-1.png" alt="photo">
+          </aside>
+        </section>
+
+
+
+      <section id="work" class="maquette">
+                                                                  <h2>WORK</h2>
+        <!--<p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
+        La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>-->
+
+            <div id="box1" class="carre">
+            <a href="Green Office/index.html"><img id="greenoffice" class="rectangle" src="image/maquette/img8.jpg" alt="maquette"></a>
+            </div>
+            <div id="box2" class="carre">
+              <a href="Creasoul/index.html"><img id="creasoul"class="rectangle2"  src="image/maquette/creasoul.png" alt="maquette"></a>
+            </div>
+            <div id="box3" class="carre">
+              <a href="Wolf Gang/index.html"><img id="wolfgang" class="rectangle3" src="image/maquette/img7.png" alt="maquette"></a>
+            </div>
+            <div id="box4" class="carre">
+              <a href="Ila Yoga 1/index.html"><img id="yoga" class="rectangle4" src="image/maquette/img6.jpg" alt="maquette"></a>
+            </div>
+
+
+            <div id="box5" class="carre">
+              <a href="Carnet d'addresse/address-book.html"><img id="carnet" class="rectangle5" src="image/carnet.png" alt="image"></a>
+            </div>
+            <div id="box6" class="carre">
+              <a href="Gestions de la souris/index.html"><img id="souris" class="rectangle6" src="image/souris.png" alt="image"></a>
+            </div>
+            <div id="box7" class="carre">
+              <a href="Bons_de_commande/index.phtml"><img id="bons" class="rectangle7" src="image/bons.png" alt="image"></a>
+            </div>
+            <div id="box8" class="carre">
+              <a href="blog/layout.phtml"><img id="blog" class="rectangle8" src="image/blog.png" alt="image"></a>
+            </div>
+
+
+
+      </section>
+    
+      <section id="contact" class="contact">
+                                                                  <h2>CONTACT</h2>
+        <div class="site">
+          <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+          <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+        </div>
+        <form id="formulaire" action="index.php" method="post">
+
+            <div class="fieldset">
+              <label for="nom">Nom :</label>
+              <input type="text" name="Nom" id="Nom" >
+              <label for="prenom">Prénom :</label>
+              <input type="text" name="Prenom" id="Prenom" >
+              <label for="email">Email :</label>
+              <input type="email" name="Email" id="Email" >
+              <label for="messages">Messages :</label>
+              <textarea name="Messages" rows="8" cols="80" id="Messages" ></textarea>
+              <button type="submit" name="button">Envoyer</button>
+
+            </div>
+
+
+        </form>
+
+        </section>
+        <?php include 'base.php'; ?>
+
 
 
     </main>
