@@ -38,7 +38,7 @@
         </div>
 
 
-        <section id="talk" class="a-propos">
+    <section id="talk" class="a-propos">
                                                                   <h2>ABOUT ME</h2>
           <article class="text">
             <div class="">
@@ -58,8 +58,7 @@
                     <li></li>
                   </ul>
             </div>
-          </article>
-
+        </article>
           <aside class="competences">
             <img src="image/HTML-5.png" alt="photo">
             <img src="image/css-3.png" alt="photo">
@@ -67,11 +66,9 @@
             <img src="image/PHP-1.png" alt="photo">
             <img src="image/Mysql-1.png" alt="photo">
           </aside>
-        </section>
+    </section>
 
-
-
-      <section id="work" class="maquette">
+    <section id="work" class="maquette">
                                                                   <h2>WORK</h2>
         <!--<p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
         La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>-->
@@ -103,11 +100,9 @@
               <a href="blog/layout.phtml"><img id="blog" class="rectangle8" src="image/blog.png" alt="image"></a>
             </div>
 
+    </section>
 
-
-      </section>
-    
-      <section id="contact" class="contact">
+    <section id="contact" class="contact">
                                                                   <h2>CONTACT</h2>
         <div class="site">
           <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
@@ -126,16 +121,11 @@
               <label for="messages">Messages :</label>
               <textarea name="Messages" rows="8" cols="80" id="Messages" ></textarea>
               <button type="submit" name="button">Envoyer</button>
-
             </div>
-
-
         </form>
 
-        </section>
+      </section>
         <?php include 'base.php'; ?>
-
-
 
     </main>
 
