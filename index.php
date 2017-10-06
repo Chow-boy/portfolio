@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>PORTFOLIO_CHOW-BOY</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton|Bree+Serif|Open+Sans" rel="stylesheet">
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/main.js"></script>
-    <script src="js/jquery/jquery.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/localscroll/localscroll.js"></script>
-    <script type="text/javascript" src="js/localscroll/scrollTo.js"></script>
+
+    <!-- localscroll -->
+    <script type="text/javascript" src="js/localscroll/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="js/localscroll/jquery.localScroll.min.js"></script>
     <script type="text/javascript" src="js/lancement/lancement.js"></script>
   </head>
 
   <body>
     <header>
-      <nav id ="navigation">
+      <nav id="navigation">
         <a href="#index"><i class="fa fa-home fa-2x" aria-hidden="true"></i>Home</a>
         <a href="#talk"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>About me</a>
         <a href="#work"><i class="fa fa-folder-open fa-2x" aria-hidden="true"></i>Work</a>

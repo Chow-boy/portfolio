@@ -1,5 +1,10 @@
+// $(document).ready(function() {
+//
+// 	$.localScroll();
+//
+// });
+
 $(document).ready(function() {
-
-	$.localScroll();
-
+	console.log("test");
+	$('#navigation').localScroll();
 });
