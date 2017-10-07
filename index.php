@@ -114,9 +114,9 @@
     <section id="contact" class="contact">
                                                                   <h2>CONTACT</h2>
         <div class="site">
-          <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+          <a href="#"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/jeanin-moussa/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+        <a href="https://github.com/Chow-boy"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
         </div>
         <form id="formulaire" action="index.php" method="post">
 
