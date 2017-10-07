@@ -177,11 +177,17 @@ li{
   flex-wrap: wrap;
   position: relative;
   z-index: 0;
+
 }
 .maquette div{
   width: 200px;
 }
-
+#spans{
+ margin-left: 480px;
+ height: 30px;
+ font-size: 1rem;
+ color: green;
+}
 .rectangle:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover, .rectangle5:hover, .rectangle6:hover, .rectangle7:hover, .rectangle8:hover{
   box-shadow: 0 0 20px 0 black;
   transform: scale(1.5);

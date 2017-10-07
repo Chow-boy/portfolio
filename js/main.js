@@ -13,7 +13,18 @@ $(function() {
 
   });
 
+  var windowHeight = $(window).height();
 
+if (windowHeight < 600) {
+  $(function(){
+    $('#spans').html("Cliquez ici!");
+  });
+
+}
+
+$('span').click(function(){
+  $('span').remove();
+});
 
 
   $('#box1').mouseover(function(){

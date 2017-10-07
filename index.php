@@ -94,6 +94,7 @@
               <a href="Ila Yoga 1/index.html"><img id="yoga" class="rectangle4" src="image/maquette/img6.jpg" alt="maquette"></a>
             </div>
 
+                                                      <span id="spans"></span>
 
             <div id="box5" class="carre">
               <a href="Carnet d'addresse/address-book.html"><img id="carnet" class="rectangle5" src="image/carnet.png" alt="image"></a>
