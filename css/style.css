@@ -10,11 +10,6 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-family: 'Anton';
-  src: url('fonts/Anton-Regular.tff') format("truetype");
-  font-weight: bold;
-}
 html{
   font-size: 62.5%;
 }
@@ -109,10 +104,8 @@ h2{
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 900px;
-  margin-bottom: 10%;
+  height: 800px;
   padding-top: 5%;
-  /*padding-top: 10%;*/
 }
 .a-propos img
 {
@@ -122,17 +115,24 @@ h2{
 }
 .text{
   width: 950px;
-  margin-top: 10px;
-  height: 500px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
 
+}
+h3{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+li{
+  font-size: 1.5rem;
 }
 .text div{
   border: 3px solid black;
   width: 270px;
   box-shadow: 10px 15px 15px 0 black;
-  height: 350px;
+  height: 250px;
   padding: 1%;
 
 };
@@ -144,17 +144,16 @@ h2{
 }
 
 .a-propos p{
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 .competences{
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  margin-top: 2.5%;
+  margin-top: 0.5%;
   width: 1250px;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
+  border: 3px solid black;
   padding: 25px;
   box-shadow: 10px 15px 15px 0 black;
 }
@@ -389,7 +388,7 @@ h1{
   margin-right: 1%;
 }
 .text{
-  height: 450px;
+  height: 320px;
 }
 .competences{
   width: 900px;
@@ -397,6 +396,7 @@ h1{
 #work{
   margin: 0 auto;
 }
+
 #contact{
   height: 500px;
 }

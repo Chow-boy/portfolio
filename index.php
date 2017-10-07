@@ -42,20 +42,28 @@
                                                                   <h2>ABOUT ME</h2>
           <article class="text">
             <div class="">
+                                          <h3>Qui suis-je</h3>
               <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web junior.
                  Suite à une réorientation professionnelle dans le numérique j'ai pu apprendre et découvrir de nouvelles choses
                en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
             </div>
             <div class="">
-
+                  <h3>Parcours professionnel</h3>
+                  <ul>
+                    <li>Développeur Web et Mobile <br>
+                    Titre RNCP NIVEAU II (en cours)</li> <br><br>
+                    <li>Développeur Intégrateur web <br>
+                    Titre RNCP NIVEAU III</li> <br><br>
+                    <li>BTS MI (Maintenance Indsutrielle)</li>
+                  </ul>
             </div>
             <div class="">
-                  <h4>Cométences en cours d'acquisition</h4>
+                  <h3>Compétences en cours d'acquisition</h3>
 
                   <ul>
-                    <li>Symfony</li>
-                    <li>Boostrap</li>
-                    <li></li>
+                    <li>Symfony</li> <br>
+                    <li>Boostrap</li> <br>
+                    <li>SASS</li>
                   </ul>
             </div>
         </article>

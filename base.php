@@ -2,7 +2,7 @@
 
       include 'database/db.php';
 
-      if (isset($_POST) && isset($_POST['Nom'])) {
+      if (isset($_POST) && isset($_POST['Nom']) && isset($_POST['Prenom']) && isset($_POST['Email']) && isset($_POST['Messages'])) {
         $nom = $_POST['Nom'];
         $prenom = $_POST['Prenom'];
         $email = $_POST['Email'];
@@ -18,6 +18,6 @@
 
 
 
-//      header('location:contact.php');
+
 
 ?>
