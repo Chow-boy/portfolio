@@ -41,13 +41,13 @@
     <section id="talk" class="a-propos">
                                                                   <h2>ABOUT ME</h2>
           <article class="text">
-            <div class="">
+            <div>
                                           <h3>Qui suis-je</h3>
               <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web junior.
                  Suite à une réorientation professionnelle dans le numérique j'ai pu apprendre et découvrir de nouvelles choses
                en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
             </div>
-            <div class="">
+            <div>
                   <h3>Parcours professionnel</h3>
                   <ul>
                     <li>Développeur Web et Mobile <br>
@@ -57,7 +57,7 @@
                     <li>BTS MI (Maintenance Indsutrielle)</li>
                   </ul>
             </div>
-            <div class="">
+            <div>
                   <h3>Compétences en cours d'acquisition</h3>
 
                   <ul>
@@ -78,8 +78,7 @@
 
     <section id="work" class="maquette">
                                                                   <h2>WORK</h2>
-        <!--<p>Voici quelques travaux réalisées pendant la formation à la 3W Académy sur la premiére ligne nous avons fait de l'intégration avec du HTML5 et CSS3.
-        La deuxiéme ligne, c'est du développement avec du PHP et Javascript. </p>-->
+
 
             <div id="box1" class="carre">
             <a href="Green Office/index.html"><img id="greenoffice" class="rectangle" src="image/maquette/img8.jpg" alt="maquette"></a>
@@ -100,7 +99,7 @@
               <a href="Carnet d'addresse/address-book.html"><img id="carnet" class="rectangle5" src="image/carnet.png" alt="image"></a>
             </div>
             <div id="box6" class="carre">
-              <a href="Gestions de la souris/index.html"><img id="souris" class="rectangle6" src="image/souris.png" alt="image"></a>
+              <a href="Gestions de la Souris/index.html"><img id="souris" class="rectangle6" src="image/souris.png" alt="image"></a>
             </div>
             <div id="box7" class="carre">
               <a href="Bons_de_commande/index.phtml"><img id="bons" class="rectangle7" src="image/bons.png" alt="image"></a>
