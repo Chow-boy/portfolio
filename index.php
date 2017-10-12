@@ -2,12 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>PORTFOLIO_CHOW-BOY</title>
-    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <title>Portfolio-jeanin-moussa-développeur-intégrateur-web</title>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
-
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- localscroll -->
