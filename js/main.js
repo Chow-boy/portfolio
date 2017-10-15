@@ -13,14 +13,14 @@ $(function() {
 
   });
 
-  var windowHeight = $(window).height();
+  /*var windowHeight = $(window).height();
 
 if (windowHeight < 600) {
   $(function(){
     $('#spans').html("Cliquez ici!");
   });
 
-}
+}*/
 
 $('span').click(function(){
   $('span').remove();
