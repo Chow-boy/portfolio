@@ -66,6 +66,7 @@
                   </ul>
             </div>
         </article>
+                                                          <h3>Compétences</h3>
           <aside class="competences">
             <img src="image/HTML-5.png" alt="photo">
             <img src="image/css-3.png" alt="photo">

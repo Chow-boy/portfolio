@@ -294,6 +294,39 @@ i{
   margin-top: 6%;
   margin-right: 7%;
 }
+/**********************************responsive**********************************/
+@media screen and (max-width:2560px) {
+.titre{
+  height: 950px;
+}
+.titre p{
+  margin-right: 1%;
+}
+h1{
+  margin-top: 20%;
+}
+.text{
+  width: 1150px;
+}
+#contact h2{
+  /*margin: 0 auto;*/
+  margin-right: -2%;
+}
+.fieldset{
+  width: 835px;
+  padding-left: 15%;
+}
+.site{
+  width: 300px;
+  margin-top: 150px;
+}
+
+
+}
+
+
+
+
 
 @media screen and (max-width:1024px) {
 
