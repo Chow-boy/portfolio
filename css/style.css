@@ -192,94 +192,20 @@ li{
   box-shadow: 0 0 20px 0 black;
   transform: scale(1.5);
 }
-#box1{
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8{
   position: absolute;
   z-index: 1;
   margin-top: 15%;
 }
-#box2{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
 
-}
-#box3{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
-#box4{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
-#box5{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
-#box6{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
-#box7{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
-#box8{
-  position: absolute;
-  z-index: 1;
-  margin-top: 15%;
-}
 .carre{
   z-index: auto;
 }
 
-#greenoffice{
+#greenoffice, #creasoul, #yoga, #wolfgang, #carnet, #souris, #blog, #bons{
   width: 200px;
   height: 200px;
   border-radius: 5px;
-}
-#creasoul{
- height: 200px;
- width: 200px;
- border-radius: 5px;
-}
-#yoga{
-  height: 200px;
-  width: 200px;
-  border-radius: 5px;
-}
-#wolfgang{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-}
-#carnet{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-
-}
-#souris{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-
-}
-#blog{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-
-}
-#bons{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-
 }
 
 /*********************************contact**************************************/
@@ -370,9 +296,7 @@ i{
 }
 
 @media screen and (max-width:1024px) {
-body{
-  width: 100%;
-}
+
 #navigation{
   max-width: 100%;
 }
