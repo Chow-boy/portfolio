@@ -68,11 +68,11 @@
         </article>
                                                           <h3>Compétences</h3>
           <aside class="competences">
-            <img src="image/HTML-5.png" alt="photo">
-            <img src="image/css-3.png" alt="photo">
-            <img src="image/JS-1.png" alt="photo">
-            <img src="image/PHP-1.png" alt="photo">
-            <img src="image/Mysql-1.png" alt="photo">
+            <img class="html" src="image/HTML-5.png" alt="photo">
+            <img class="css" src="image/css-3.png" alt="photo">
+            <img class="js" src="image/JS-1.png" alt="photo">
+            <img class="php" src="image/PHP-1.png" alt="photo">
+            <img class="mysql" src="image/Mysql-1.png" alt="photo">
           </aside>
     </section>
 
