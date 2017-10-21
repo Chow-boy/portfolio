@@ -322,6 +322,10 @@ width: 100%;
 .mysql{
   margin-right: 10%;
 }
+#work img{
+  width: 130px;
+  height: 130px;
+}
 input{
   margin-left: 38%;
 }
@@ -340,7 +344,7 @@ button{
 
 @media screen and (max-width:320px) {
 .text{
-  height: 700px;
+
   display: flex;
   flex-direction: column;
 }
