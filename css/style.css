@@ -356,8 +356,8 @@ width: 100%;
 }
 
 #work img{
-  width: 130px;
-  height: 130px;
+  width: 200px;
+  height: 200px;
 }
 
 input{
@@ -421,5 +421,63 @@ button{
 
 .js{
   margin-top: 1%;
+}
+
+#work{
+  display: flex;
+  justify-content: center;
+  height: 4550px;
+}
+
+#work img{
+  width: 500px;
+  height: 500px;
+  margin-left: -45%;
+
+}
+
+#box2{
+  margin-top: 700px;
+}
+
+#box3{
+  margin-top: 1250px;
+}
+
+#box4{
+  margin-top: 1800px;
+}
+
+#box5{
+  margin-top: 2350px;
+}
+
+#box6{
+  margin-top: 2900px;
+}
+
+#box7{
+  margin-top: 3450px;
+}
+
+#box8{
+  margin-top: 4000px;
+}
+
+#contact{
+  height: 700px;
+}
+
+input{
+  width: 50%;
+  margin-left: 25%;
+}
+
+textarea{
+  width: 50%;
+}
+
+button{
+  height: 50px;
 }
 }
