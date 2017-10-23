@@ -1,6 +1,7 @@
 "use strict";
 
 $(function() {
+  if (screen.width >= 1024) {
     $('#work').mouseenter(function() {
         $("#box1").animate({marginLeft:'22%', marginTop:'200px'}, 1000);
         $("#box2").animate({marginLeft:'36%', marginTop:'200px'}, 2000);
@@ -11,10 +12,10 @@ $(function() {
         $("#box7").animate({marginLeft:'50%', marginTop:'500px'}, 3000);
         $("#box8").animate({marginLeft:'64%', marginTop:'500px'}, 4000);
     });
+  }
 
-    var windowHeight = $(window).height();
 
-   if ((windowHeight < 851)) {
+   if (screen.width == 1024) {
   $(function(){
     $('#spans').html("Cliquez ici!");
 });
