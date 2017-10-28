@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width"/>
     <title>Portfolio-jeanin-moussa-développeur-intégrateur-web</title>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">

@@ -1,0 +1,70 @@
+header{
+	background-color: #B8CB21;
+}
+.bureau{
+	float: left;
+	width: 25%;
+	margin-right: 0.5%;
+}
+.nav{
+	float: right;
+	color: #2E4B30;
+	margin-top: 60px;
+	font-family: "Oswald";
+}
+@font-face{
+	font-family: "Oswald";
+	src: url("googleFonts.html");
+}
+header a{
+	padding: 0 30px 0 30px;
+	color: #394E32;
+}
+
+body{
+	background-image:url("img/fond.png");
+	max-width: 750px;
+	margin: auto;
+}
+main{
+	background-color: white;
+	padding:25px 25px 25px 25px;
+}
+
+.lamain{
+	float: left;
+	width: 25%;
+	margin-right: 0.5%;
+}
+
+div{
+	text-align: right;
+	border: 15px solid #B8CB21;
+	background-color: #B8CB21;
+	margin-left: 80% ;
+
+}
+
+ h1{
+	color: #B8CB21;
+	font-family: "Oswald";
+}
+p,li{
+	color: #6A7077;
+
+}
+.lireplus{
+	color: white;
+	padding-right: 18px;
+	text-decoration: none;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+	
+}
+
+#licence img {
+    width: 50px;
+}
