@@ -334,11 +334,6 @@ width: 100%;
   border-style: none;
 }
 
-#talk h3 p li{
-  font-size: 4rem;
-  font-weight: bold;
-}
-
 .js{
   margin-top: 16%;
 }
@@ -401,9 +396,8 @@ button{
   width: 75%;
 }
 
-#talk h3 p li{
-  font-size: 4rem;
-  font-weight: bold;
+#work h3{
+  font-size: 3rem;
 }
 
 .competences img{

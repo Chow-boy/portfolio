@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width = device-width"/>
     <title>Portfolio-jeanin-moussa-développeur-intégrateur-web</title>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
@@ -63,7 +62,7 @@
                   <ul>
                     <li>Symfony</li> <br>
                     <li>Boostrap</li> <br>
-                    <li>SASS</li>
+                    <li>JAVA</li>
                   </ul>
             </div>
         </article>
@@ -82,31 +81,31 @@
 
 
             <div id="box1" class="carre">
-            <a href="Green Office/index.html"><img id="greenoffice" class="rectangle" src="image/maquette/img8.jpg" alt="maquette"></a>
+            <a href="#"><img id="greenoffice" class="rectangle" src="image/cadrenoir.png" alt="maquette"></a>
             </div>
             <div id="box2" class="carre">
-              <a href="#"><img id="creasoul"class="rectangle2"  src="image/cadrenoir.jpg" alt="maquette"></a>
+              <a href="#"><img id="creasoul"class="rectangle2"  src="image/cadrenoir.png" alt="maquette"></a>
             </div>
             <div id="box3" class="carre">
-              <a href="#"><img id="wolfgang" class="rectangle3" src="image/cadrenoir.jpg" alt="maquette"></a>
+              <a href="#"><img id="wolfgang" class="rectangle3" src="image/cadrenoir.png" alt="maquette"></a>
             </div>
             <div id="box4" class="carre">
-              <a href="#"><img id="yoga" class="rectangle4" src="image/cadrenoir.jpg" alt="maquette"></a>
+              <a href="#"><img id="yoga" class="rectangle4" src="image/cadrenoir.png" alt="maquette"></a>
             </div>
 
                                                       <span id="spans"></span>
 
             <div id="box5" class="carre">
-              <a href="#"><img id="carnet" class="rectangle5" src="image/cadrenoir.jpg" alt="image"></a>
+              <a href="#"><img id="carnet" class="rectangle5" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box6" class="carre">
-              <a href="#"><img id="souris" class="rectangle6" src="image/cadrenoir.jpg" alt="image"></a>
+              <a href="#"><img id="souris" class="rectangle6" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box7" class="carre">
-              <a href="#"><img id="bons" class="rectangle7" src="image/cadrenoir.jpg" alt="image"></a>
+              <a href="#"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box8" class="carre">
-              <a href="#"><img id="blog" class="rectangle8" src="image/cadrenoir.jpg" alt="image"></a>
+              <a href="#"><img id="blog" class="rectangle8" src="image/cadrenoir.png" alt="image"></a>
             </div>
 
     </section>
