@@ -314,7 +314,7 @@ i{
 }
 /**********************************responsive**********************************/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
 
 
 #navigation{
@@ -322,15 +322,28 @@ width: 100%;
 }
 
 .titre{
- height: 600px;
- background-size: 100% 600px;
+ height: 500px;
+ background-size: 100% 500px;
+}
+
+.titre h1{
+  margin-top: 30%;
+}
+
+.text{
+  height: 410px;
+}
+
+.text div{
+  height: 350px;
+  width: 200px;
 }
 
 .competences{
   margin: 0 auto;
   width: 100%;
   padding: 0;
-  height: 300px;
+  height: 150px;
   border-style: none;
 }
 
@@ -356,15 +369,15 @@ width: 100%;
 }
 
 input{
-  margin-left: 38%;
+  margin-left: 33%;
 }
 
 textarea{
-  margin-left: 25%;
+  margin-left: 18%;
 }
 
 button{
-  margin-left: 43%;
+  margin-left: 40%;
   height: 30px;
 }
 
@@ -373,7 +386,7 @@ button{
 }
 }
 
-@media screen and (max-width:980px) {
+/*@media screen and (max-width:980px) {
 
 .a-propos{
   height: 1550px;
@@ -474,4 +487,4 @@ textarea{
 button{
   height: 50px;
 }
-}
+}*/

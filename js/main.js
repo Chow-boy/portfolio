@@ -1,7 +1,7 @@
 "use strict";
 
 $(function() {
-  if (screen.width >= 1024) {
+  if (screen.width >= 768) {
     $('#work').mouseenter(function() {
         $("#box1").animate({marginLeft:'22%', marginTop:'200px'}, 1000);
         $("#box2").animate({marginLeft:'36%', marginTop:'200px'}, 2000);
@@ -15,7 +15,7 @@ $(function() {
   }
 
 
-   if (screen.width == 1024) {
+   if (screen.width == 768) {
   $(function(){
     $('#spans').html("Cliquez ici!");
 });
