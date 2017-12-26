@@ -364,6 +364,9 @@ button{
 
 }
 }
+@media screen and (max-width:980px) {
+
+}
 @media screen and (max-width:768px) {
 
 
@@ -540,20 +543,8 @@ p{
   margin-top: 860px;
 }
 
-#box5{
-  margin-top: 1120px;
-}
-
-#box6{
-  margin-top: 1130px;
-}
-
-#box7{
-  margin-top: 1340px;
-}
-
-#box8{
-  margin-top: 1550px;
+#box5, #box6, #box7, #box8{
+  display: none;
 }
 
 #contact{
