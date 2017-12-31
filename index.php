@@ -102,7 +102,7 @@
               <a href="#"><img id="souris" class="rectangle6" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box7" class="carre">
-              <a href="#"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
+              <a href="Traducteur/index.php"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box8" class="carre">
               <a href="#"><img id="blog" class="rectangle8" src="image/cadrenoir.png" alt="image"></a>

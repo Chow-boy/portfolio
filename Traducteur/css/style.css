@@ -1,0 +1,18 @@
+body{
+text-align: center;
+background-color: #ffffcc;
+}
+
+em{
+  color: purple;
+  font-weight: bold;
+}
+
+span{
+  color: red;
+  font-weight: bold;
+}
+
+h1{
+  color: #333300;
+}
