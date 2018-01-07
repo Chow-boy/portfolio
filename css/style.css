@@ -12,7 +12,7 @@
 
 *{
 
-  -moz-box-sizing: 	   border-box;
+  -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -208,7 +208,8 @@ li{
 
 .rectangle:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover, .rectangle5:hover, .rectangle6:hover, .rectangle7:hover, .rectangle8:hover{
   box-shadow: 0 0 20px 0 black;
-  transform: scale(1.5);
+  transform: scale(1.2);
+  transition-duration: 2s;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8{

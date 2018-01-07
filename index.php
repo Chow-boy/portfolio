@@ -80,10 +80,10 @@
 
 
             <div id="box1" class="carre">
-            <a href="#"><img id="greenoffice" class="rectangle" src="image/cadrenoir.png" alt="maquette"></a>
+            <a href="GreenOffice/index.html"><img id="greenoffice" class="rectangle" src="image/greenoffice.png" alt="maquette"></a>
             </div>
             <div id="box2" class="carre">
-              <a href="#"><img id="creasoul" class="rectangle2"  src="image/cadrenoir.png" alt="maquette"></a>
+              <a href="Creasoul/index.html"><img id="creasoul" class="rectangle2"  src="image/creasoul.png" alt="maquette"></a>
             </div>
             <div id="box3" class="carre">
               <a href="#"><img id="wolfgang" class="rectangle3" src="image/cadrenoir.png" alt="maquette"></a>
@@ -95,13 +95,13 @@
                                                       <span id="spans"></span>
 
             <div id="box5" class="carre">
-              <a href="selectphoto/index.html"><img id="carnet" class="rectangle5" src="image/cadrenoir.png" alt="image"></a>
+              <a href="selectphoto/index.html"><img id="carnet" class="rectangle5" src="image/selcteurphoto.png" alt="image"></a>
             </div>
             <div id="box6" class="carre">
               <a href="#"><img id="souris" class="rectangle6" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box7" class="carre">
-              <a href="traducteur/index.php"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
+              <a href="traducteur/index.php"><img id="bons" class="rectangle7" src="image/trad.png" alt="image"></a>
             </div>
             <div id="box8" class="carre">
               <a href="#"><img id="blog" class="rectangle8" src="image/cadrenoir.png" alt="image"></a>
