@@ -10,9 +10,9 @@
     <script src="js/main.js"></script>
 
     <!-- localscroll -->
-    <script type="text/javascript" src="js/localscroll/jquery.scrollTo-min.js"></script>
-    <script type="text/javascript" src="js/localscroll/jquery.localScroll.min.js"></script>
-    <script type="text/javascript" src="js/lancement/lancement.js"></script>
+    <script src="js/localscroll/jquery.scrollTo-min.js"></script>
+    <script src="js/localscroll/jquery.localScroll.min.js"></script>
+    <script src="js/lancement/lancement.js"></script>
   </head>
 
   <body>
@@ -49,10 +49,8 @@
             <div>
                   <h3>Parcours professionnel</h3>
                   <ul>
-                    <li>Développeur Web et Mobile <br>
-                    Titre RNCP NIVEAU II (en cours)</li> <br><br>
-                    <li>Développeur Intégrateur web <br>
-                    Titre RNCP NIVEAU III</li> <br><br>
+                    <li>Formation en java (3 mois)</li>
+                    <li>Développeur Intégrateur Web</li>
                     <li>BTS MI (Maintenance Indsutrielle)</li>
                   </ul>
             </div>
@@ -60,8 +58,9 @@
                   <h3>Compétences en cours d'acquisition</h3>
 
                   <ul>
-                    <li>Symfony</li> <br>
-                    <li>Boostrap</li> <br>
+                    <li>Symfony</li>
+                    <li>Boostrap</li>
+                    <li>Playframework</li>
                     <li>JAVA</li>
                   </ul>
             </div>
@@ -84,7 +83,7 @@
             <a href="#"><img id="greenoffice" class="rectangle" src="image/cadrenoir.png" alt="maquette"></a>
             </div>
             <div id="box2" class="carre">
-              <a href="#"><img id="creasoul"class="rectangle2"  src="image/cadrenoir.png" alt="maquette"></a>
+              <a href="#"><img id="creasoul" class="rectangle2"  src="image/cadrenoir.png" alt="maquette"></a>
             </div>
             <div id="box3" class="carre">
               <a href="#"><img id="wolfgang" class="rectangle3" src="image/cadrenoir.png" alt="maquette"></a>
@@ -96,13 +95,13 @@
                                                       <span id="spans"></span>
 
             <div id="box5" class="carre">
-              <a href="Sélecteur de Photo (perso)/index.html"><img id="carnet" class="rectangle5" src="image/cadrenoir.png" alt="image"></a>
+              <a href="selectphoto/index.html"><img id="carnet" class="rectangle5" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box6" class="carre">
               <a href="#"><img id="souris" class="rectangle6" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box7" class="carre">
-              <a href="Traducteur/index.php"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
+              <a href="traducteur/index.php"><img id="bons" class="rectangle7" src="image/cadrenoir.png" alt="image"></a>
             </div>
             <div id="box8" class="carre">
               <a href="#"><img id="blog" class="rectangle8" src="image/cadrenoir.png" alt="image"></a>
