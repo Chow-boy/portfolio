@@ -35,7 +35,7 @@ window.addEventListener('load', function(){
         var x = Math.round(event.clientX - xyrect.left);
         var y = Math.round(event.clientY - xyrect.top);
 
-        console.log(x, y);
+        
       if((x >= 350 && x <= 550) && (y >= 25 && y <= 225)){
           document.location.href="GreenOffice/index.html";
         }
