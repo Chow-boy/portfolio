@@ -13,7 +13,7 @@
 *{
 
   -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -319,3 +319,32 @@ i{
   margin-right: 7%;
 }
 /**********************************responsive**********************************/
+
+@media screen and (max-width : 768px){
+
+  #talk{
+    height: 1200px;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+  }
+
+  #work{
+    height: 700px;
+  }
+
+  h3{
+    margin-top: 2.5%;
+  }
+
+  canvas{
+    margin-bottom: 15%;
+  }
+
+  #contact{
+    margin-top: 15%;
+  }
+}

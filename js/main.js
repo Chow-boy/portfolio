@@ -17,15 +17,30 @@ window.addEventListener('load', function(){
 
 
   function draw(){
-    ctx.drawImage(greenOffice, 350, 25, 200, 200);
+
+    /*ctx.drawImage(greenOffice, 350, 25, 200, 200);
     ctx.drawImage(creasoul, 580, 25, 200, 200);
     ctx.drawImage(cadrenoir, 810, 25, 200, 200);
     ctx.drawImage(cadrenoir, 1050, 25, 200, 200);
     ctx.drawImage(carnet, 350, 250, 200, 200);
     ctx.drawImage(cadrenoir, 580, 250, 200, 200);
     ctx.drawImage(trad, 810, 250, 200, 200);
-    ctx.drawImage(cadrenoir, 1050, 250, 200, 200);
+    ctx.drawImage(cadrenoir, 1050, 250, 200, 200);*/
 
+    console.log(window.screen);
+    console.log(screen.width);
+
+    if(screen.width == 768){
+      ctx.drawImage(greenOffice, 300, 25, 350, 350);
+      ctx.drawImage(creasoul, 820, 25, 350, 350);
+      ctx.drawImage(carnet, 350, 350, 200, 200);
+      ctx.drawImage(trad, 810, 350, 200, 200);
+    }
+    else{
+      ctx.drawImage(creasoul, 580, 25, 200, 200);
+      ctx.drawImage(carnet, 350, 250, 200, 200);
+      ctx.drawImage(trad, 810, 250, 200, 200);
+    }
       canvas.addEventListener('click', onClickPhotos);
   }
 
@@ -35,7 +50,7 @@ window.addEventListener('load', function(){
         var x = Math.round(event.clientX - xyrect.left);
         var y = Math.round(event.clientY - xyrect.top);
 
-        
+
       if((x >= 350 && x <= 550) && (y >= 25 && y <= 225)){
           document.location.href="GreenOffice/index.html";
         }
