@@ -1,91 +1,74 @@
-"use strict";
 
-$(function() {
-  if (screen.width >= 768) {
-    $('#work').mouseenter(function() {
-        $("#box1").animate({marginLeft:'22%', marginTop:'200px'}, 1000);
-        $("#box2").animate({marginLeft:'36%', marginTop:'200px'}, 2000);
-        $("#box3").animate({marginLeft:'50%', marginTop:'200px'}, 3000);
-        $("#box4").animate({marginLeft:'64%', marginTop:'200px'}, 4000);
-        $("#box5").animate({marginLeft:'22%', marginTop:'500px'}, 1000);
-        $("#box6").animate({marginLeft:'36%', marginTop:'500px'}, 2000);
-        $("#box7").animate({marginLeft:'50%', marginTop:'500px'}, 3000);
-        $("#box8").animate({marginLeft:'64%', marginTop:'500px'}, 4000);
-    });
+window.addEventListener('load', function(){
+
+  var canvas = document.getElementById('canvas');
+  var ctx = canvas.getContext('2d');
+  var greenOffice = new Image();
+  greenOffice.src = 'image/greenoffice.png';
+  var creasoul = new Image();
+  creasoul.src = 'image/creasoul.png';
+  var cadrenoir = new Image();
+  cadrenoir.src = 'image/cadrenoir.png';
+  var carnet = new Image();
+  carnet.src = 'image/selcteurphoto.png';
+  var trad = new Image();
+  trad.src = 'image/trad.png';
+
+
+
+  function draw(){
+    ctx.drawImage(greenOffice, 350, 25, 200, 200);
+    ctx.drawImage(creasoul, 580, 25, 200, 200);
+    ctx.drawImage(cadrenoir, 810, 25, 200, 200);
+    ctx.drawImage(cadrenoir, 1050, 25, 200, 200);
+    ctx.drawImage(carnet, 350, 250, 200, 200);
+    ctx.drawImage(cadrenoir, 580, 250, 200, 200);
+    ctx.drawImage(trad, 810, 250, 200, 200);
+    ctx.drawImage(cadrenoir, 1050, 250, 200, 200);
+
+      canvas.addEventListener('click', onClickPhotos);
   }
 
+    function onClickPhotos(event){
 
-   if (screen.width == 768) {
-  $(function(){
-    $('#spans').html("Cliquez ici!");
-});
-  $('span').click(function(){
-    $('span').remove();
-  });
-}
+      var xyrect = canvas.getBoundingClientRect();
+        var x = Math.round(event.clientX - xyrect.left);
+        var y = Math.round(event.clientY - xyrect.top);
 
-  $('#box1').mouseover(function(){
-    $('#box1').css("z-index", 1);
- });
+        console.log(x, y);
+      if((x >= 350 && x <= 550) && (y >= 25 && y <= 225)){
+          document.location.href="GreenOffice/index.html";
+        }
 
-$('#box1').mouseleave(function()
-{
-  $('#box1').css("z-index", 0)
-});
+      if((x >= 580 && x <= 780) && (y >= 25 && y <= 225)){
+            document.location.href="Creasoul/index.html";
+          }
 
-$('#box2').mouseover(function()
-{
-  $('#box2').css("z-index", 2);
-});
+      if((x >= 810 && x <= 1010) && (y >= 25 && y <= 225)){
+            document.location.href="#";
+          }
 
-$('#box2').mouseleave(function(){
-  $('#box2').css("z-index", 0)
-});
+      if((x >= 1050 && x <= 1250) && (y >= 25 && y <= 225)){
+            document.location.href="#";
+          }
 
-$('#box3').mouseover(function(){
-  $('#box3').css("z-index", 2);
-});
+      if((x >= 350 && x <= 550) && (y >= 250 && y <= 450)){
+            document.location.href="selectphoto/index.html";
+          }
 
-$('#box3').mouseleave(function()
-{
-  $('#box3').css("z-index", 0)
-});
+      if((x >= 580 && x <= 780) && (y >= 250 && y <= 450)){
+            document.location.href="#";
+          }
 
-$('#box5').mouseover(function()
-{
-  $('#box5').css("z-index", 2);
-});
+      if((x >= 810 && x <= 1010) && (y >= 250 && y <= 450)){
+            document.location.href="traducteur/index.php";
+          }
 
-$('#box5').mouseleave(function()
-{
-  $('#box5').css("z-index", 0)
-});
+      if((x >= 1050 && x <= 1250) && (y >= 250 && y <= 450)){
+            document.location.href="#";
+          }
+    }
 
-$('#box6').mouseover(function()
-{
-  $('#box6').css("z-index", 2);
-});
-
-$('#box6').mouseleave(function()
-{
- $('#box6').css("z-index", 0)
-});
-
-$('#box7').mouseover(function(){
-  $('#box7').css("z-index", 2);
-  });
-
-  $('#box7').mouseleave(function(){
-    $('#box7').css("z-index", 0)
-  });
-
-  $('#box1').mouseover(function(){
-    $('#box1').css("z-index", 2);
-    });
-
-$('#box1').mouseleave(function()
-{
-  $('#box1').css("z-index", 0)
-});
+  draw();
 
 });
