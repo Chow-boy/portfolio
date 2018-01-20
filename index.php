@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale-scale=1.0">
     <title>Portfolio-jeanin-moussa-développeur-intégrateur-web</title>
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery/jquery-3.2.1.min.js"></script>
-    <script src="js/main.js"></script>
+
 
     <!-- localscroll -->
     <script src="js/localscroll/jquery.scrollTo-min.js"></script>
@@ -65,20 +66,50 @@
                   </ul>
             </div>
         </article>
-                                                          <h3>Compétences</h3>
+
           <aside class="competences">
-            <img class="html" src="image/HTML-5.png" alt="photo">
-            <img class="css" src="image/css-3.png" alt="photo">
-            <img class="js" src="image/JS-1.png" alt="photo">
-            <img class="php" src="image/PHP-1.png" alt="photo">
-            <img class="mysql" src="image/Mysql-1.png" alt="photo">
+            <h3>Compétences</h3>
+            <div>
+              <img class="html" src="image/HTML-5.png" alt="photo">
+              <img class="css" src="image/css-3.png" alt="photo">
+              <img class="js" src="image/JS-1.png" alt="photo">
+              <img class="php" src="image/PHP-1.png" alt="photo">
+              <img class="mysql" src="image/Mysql-1.png" alt="photo">
+            </div>
+
           </aside>
     </section>
 
     <section id="work" class="maquette">
                                                                   <h2>WORK</h2>
 
-            <canvas id="canvas" width="1500" height="800">Votre navigateur n'accepte pas Canvas !</canvas>
+      <figure>
+        <a href="GreenOffice/index.html">
+        <img  src="image/greenoffice.png" alt="photo" />
+        </a>
+        <figcaption>Green Office</figcaption>
+      </figure>
+
+      <figure>
+        <a href="Creasoul/index.html">
+        <img src="image/creasoul.png" alt="photo" />
+        </a>
+        <figcaption>Creasoul</figcaption>
+      </figure>
+
+      <figure>
+        <a href="selectphoto/index.html">
+        <img  src="image/selcteurphoto.png" alt="photo" />
+        </a>
+        <figcaption>Sélecteur de photo</figcaption>
+      </figure>
+
+      <figure>
+        <a href="trad/index.php">
+        <img  src="image/trad.png" alt="photo" />
+        </a>
+        <figcaption>Traducteur <br> Anglais - Français</figcaption>
+      </figure>
 
 
 
