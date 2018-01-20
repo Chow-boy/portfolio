@@ -105,7 +105,7 @@
       </figure>
 
       <figure>
-        <a href="trad/index.php">
+        <a href="traducteur/index.php">
         <img  src="image/trad.png" alt="photo" />
         </a>
         <figcaption>Traducteur <br> Anglais - Français</figcaption>

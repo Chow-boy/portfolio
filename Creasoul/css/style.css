@@ -102,6 +102,24 @@ aside{
 #licence img {
     width: 50px;
 }
+
+.close{
+  display: inline-block;
+  position: absolute;
+  width: 4.5rem;
+  height: 4.3rem;
+  text-decoration: none;
+  text-shadow: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  background: #3bbf7b;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-left: -15px;
+}
 /****************responsive*************************/
 
 @media screen and (max-width: 1024px){

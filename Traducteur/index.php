@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+      <a href="https://www.jeaninmoussa.fr" class="close">X</a>
     <h1>Traducteur Anglais - Français</h1>
     <form class="forms" action="index.php" method="post">
         <input type="text" name="word">

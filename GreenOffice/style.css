@@ -62,9 +62,27 @@ p,li{
     display: block;
     text-align: center;
     padding: 25px;
-	
+
 }
 
 #licence img {
     width: 50px;
+}
+
+.close{
+  display: inline-block;
+  position: absolute;
+  width: 1.2rem;
+  height: 1.1rem;
+  text-decoration: none;
+  text-shadow: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  background: red;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-left: 50%;
 }
