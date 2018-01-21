@@ -43,3 +43,10 @@ span{
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   margin-left: 17%;
 }
+
+@media screen and (max-width : 768px) {
+
+  .close{
+    margin-left: 85%;
+  }
+}

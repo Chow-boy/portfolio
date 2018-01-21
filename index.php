@@ -49,27 +49,26 @@
             </div>
             <div>
                   <h3>Parcours professionnel</h3>
-                  <ul>
-                    <li>Formation en java (3 mois)</li>
-                    <li>Développeur Intégrateur Web</li>
-                    <li>BTS MI (Maintenance Indsutrielle)</li>
-                  </ul>
+
+                    <p>Formation en java (3 mois)</p>
+                    <p>Développeur Intégrateur Web</p>
+                    <p>BTS MI (Maintenance Industrielle)</p>
+
             </div>
             <div>
                   <h3>Compétences en cours d'acquisition</h3>
 
-                  <ul>
-                    <li>Symfony</li>
-                    <li>Boostrap</li>
-                    <li>Playframework</li>
-                    <li>JAVA</li>
-                  </ul>
+
+                    <p>Boostrap</p>
+                    <p>Playframework</p>
+                    <p>JAVA</p>
+
             </div>
         </article>
 
           <aside class="competences">
             <h3>Compétences</h3>
-            <div>
+            <div id="comp">
               <img class="html" src="image/HTML-5.png" alt="photo">
               <img class="css" src="image/css-3.png" alt="photo">
               <img class="js" src="image/JS-1.png" alt="photo">
