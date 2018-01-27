@@ -31,7 +31,7 @@
         <div id="index" class="titre">
 
 
-          <h1> INTÉGRATEUR ET DÉVELOPPEUR D'APPLICATION WEB JUNIOR</h1>
+          <h1> INTÉGRATEUR ET DÉVELOPPEUR D'APPLICATION WEB</h1>
           <p>Bienvenue chez Jeanin MOUSSA</p>
 
 
@@ -43,7 +43,7 @@
           <article class="text">
             <div>
                                           <h3>Qui suis-je</h3>
-              <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web junior.
+              <p>Je m'appelle Jeanin MOUSSA, je suis un intégrateur et développeur d'application web.
                  Suite à une réorientation professionnelle dans le numérique j'ai pu apprendre et découvrir de nouvelles choses
                en intégrant la 3W Académy pour débuter dans le codage et connaitre les différents langages. </p>
             </div>
